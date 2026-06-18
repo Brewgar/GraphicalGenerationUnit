@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "ggu",
+  "version": "1.0.0",
+  "name": "GraphicalGenerationUnit",
+  "authors": [
+    "GGU Development Team"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/ggu/icon.png",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "com.ggu.GGU"
+    ]
+  },
+  "mixins": [
+    "ggu.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": ">=1.21.0",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "custom": {
+    "ggu": {
+      "batchSize": 64,
+      "gpuQueueDepth": 3,
+      "enableVulkanValidation": false,
+      "nativeLibraryPath": "ggu/native/lib"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "required": true,
+  "package": "com.ggu.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "NoiseChunkGeneratorMixin",
+    "ServerChunkAccessMixin",
+    "ChunkManagerMixin",
+    "ChunkStatusMixin"
+  ],
+  "client": [],
+  "server": [
+    "NoiseChunkGeneratorMixin",
+    "ServerChunkAccessMixin",
+    "ChunkManagerMixin",
+    "ChunkStatusMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
