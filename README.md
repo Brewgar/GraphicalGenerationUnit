@@ -11,11 +11,11 @@ GGU is a high-performance Fabric mod that offloads chunk terrain generation (Noi
 - **Phase 5**: Asynchronous Assembly - CompletableFuture-based chunk completion
 
 ## Features
-- ✅ Zero-Copy memory bridge via DirectByteBuffer
-- ✅ Branchless GPU noise computation (no warp divergence)
-- ✅ Headless Vulkan initialization (no swapchain dependency)
-- ✅ Chunky pre-generator compatible
-- ✅ Non-blocking async pipeline
+-  Zero-Copy memory bridge via DirectByteBuffer
+-  Branchless GPU noise computation (no warp divergence)
+-  Headless Vulkan initialization (no swapchain dependency)
+-  Chunky pre-generator compatible
+-  Non-blocking async pipeline
 
 ## Project Structure
 ```
