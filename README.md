@@ -59,4 +59,4 @@ GraphicalGenerationUnit/
 ## Performance Benchmarks
 - Batch size: 64 chunks per GPU dispatch
 - Memory overhead: ~2MB per batch
-- Latency: <5ms GPU-CPU sync (pinned memory)
+- Latency: <5ms GPU-CPU sync
